@@ -17,3 +17,4 @@ where diff in
 (select diff from findrownum
 group by diff
 having count(id)>2)
+order by visit_date
